@@ -1,0 +1,57 @@
+.nav-item{
+    padding:6px;
+    margin: 6px 6px 6px auto;
+    opacity: 60%;
+}
+
+.nav-item:hover {
+    opacity: 100%;
+}
+
+.navbar {
+    border: auto;
+    background-color: none;
+    margin: auto;
+    
+}
+
+.navbar-brand {
+    margin-left: 10px;
+}
+
+.navbar-social {
+    margin-left: 6px;
+    margin-right: 6px;
+    padding: 10px;
+}
+
+.navbar-social:hover {
+    background-color:red;
+    border: 0px;
+    border-radius: 10%;
+    opacity: 75%;
+}
+
+.nav-item {
+    margin: auto;
+    padding: auto;
+    font-weight: bold;
+}
+
+.kereso {
+    margin: 0px 0px 0px auto;
+    position: relative;
+    margin-right: 0px;
+}
+
+.btn {
+    border: 1px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.form-control {
+        border: 1px;
+        border-radius: 10px;
+        margin-right: 10px;
+}
