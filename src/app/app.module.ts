@@ -10,6 +10,8 @@ import { FormsModule } from '@angular/forms';
 import { SzolgaltatasokComponent } from './szolgaltatasok/szolgaltatasok.component';
 import { ArakComponent } from './arak/arak.component';
 import { KapcsolatComponent } from './kapcsolat/kapcsolat.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule } from '@angular/material/slider';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { KapcsolatComponent } from './kapcsolat/kapcsolat.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MatSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
