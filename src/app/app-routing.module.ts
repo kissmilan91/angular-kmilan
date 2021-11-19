@@ -4,7 +4,6 @@ import { ArakComponent } from './arak/arak.component';
 import { KapcsolatComponent } from './kapcsolat/kapcsolat.component';
 import { KezdolapComponent } from './kezdolap/kezdolap.component';
 import { SzolgaltatasokComponent } from './szolgaltatasok/szolgaltatasok.component';
-import {NgbPaginationModule, NgbAlertModule, NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 const routes: Routes = [
   {path:  "", pathMatch:  "full",redirectTo:  "kezdolap"},

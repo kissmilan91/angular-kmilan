@@ -11,9 +11,6 @@ import { SzolgaltatasokComponent } from './szolgaltatasok/szolgaltatasok.compone
 import { ArakComponent } from './arak/arak.component';
 import { KapcsolatComponent } from './kapcsolat/kapcsolat.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatSliderModule } from '@angular/material/slider';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import {NgbPaginationModule, NgbAlertModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -29,12 +26,7 @@ import {NgbPaginationModule, NgbAlertModule} from '@ng-bootstrap/ng-bootstrap';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    BrowserAnimationsModule,
-    MatSliderModule,
-    NgbModule,
-    NgbPaginationModule,
-    NgbAlertModule
-
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

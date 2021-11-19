@@ -1,7 +1,15 @@
+div.menu {
+    margin: auto;
+}
+
 .nav-item{
     padding:6px;
     margin: auto;
     opacity: 60%;
+}
+
+div.kereso {
+    text-align: left;
 }
 
 .nav-item:hover {
@@ -12,13 +20,11 @@
     border: auto;
     background-color: none;
     margin: auto;
-    width: auto;
-    height: auto;
-    
 }
 
 .navbar-brand {
-    margin-left: 10px;
+    font-weight: bolder;
+    width: 8em;
 }
 
 .navbar-fixed-top {
@@ -40,21 +46,26 @@
 
 .nav-item {
     margin: auto;
-    padding: auto;
+    list-style: none;
     font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .kereso {
-    margin: 0px 0px 0px auto;
+    margin: auto;
+    float: left;
     position: relative;
     margin-right: 0px;
 }
 
-.btn {
-    border: 1px;
-    border-radius: 10px;
-    margin-right: 10px;
+.dropdown-menu {
+    width: auto;
+    height: auto;
+    margin: auto;
+    border: 10em;
+    border-radius: 6px;
 }
+
 
 .form-control {
         border: 1px;
