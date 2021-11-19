@@ -21,6 +21,10 @@
     margin-left: 10px;
 }
 
+.navbar-fixed-top {
+	min-height: 70px;
+}
+
 .navbar-social {
     margin-left: 6px;
     margin-right: 6px;
@@ -56,4 +60,21 @@
         border: 1px;
         border-radius: 10px;
         margin-right: 10px;
+}
+
+.navbar-nav > li > a {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	line-height: 70px;
+}
+.horizontal {
+	display: table;
+	table-layout: fixed;
+}
+.section {
+	padding-top: 70px;
+	display: table-cell;
+	min-width: 320px;
+	height: 100%;
+	text-align: center;
 }
