@@ -1,6 +1,6 @@
 .nav-item{
     padding:6px;
-    margin: 6px 6px 6px auto;
+    margin: auto;
     opacity: 60%;
 }
 
@@ -12,6 +12,8 @@
     border: auto;
     background-color: none;
     margin: auto;
+    width: auto;
+    height: auto;
     
 }
 
