@@ -1,0 +1,6 @@
+div.kep {
+    background-image: url("/assets/footer2.jpg");
+    height: 400px;
+    background-size: cover;
+    background-position-y: -80px;
+}
