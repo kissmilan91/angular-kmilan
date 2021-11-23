@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "vizsgaremek": {
+    "angular-material": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/vizsgaremek",
+            "outputPath": "dist/angular-material",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -27,14 +27,10 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.css"
             ],
-            "scripts": [
-              "node_modules/jquery/dist/jquery.min.js", 
-              "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "/projekt2/src/app/sidebar/sidebar.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -73,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "vizsgaremek:build:production"
+              "browserTarget": "angular-material:build:production"
             },
             "development": {
-              "browserTarget": "vizsgaremek:build:development"
+              "browserTarget": "angular-material:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -84,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "vizsgaremek:build"
+            "browserTarget": "angular-material:build"
           }
         },
         "test": {
@@ -99,17 +95,14 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.css"
             ],
-            "scripts": [
-              "node_modules/jquery/dist/jquery.min.js", 
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"
-            ]
+            "scripts": []
           }
         }
       }
     }
   },
-  "defaultProject": "angular-kmilan"
+  "defaultProject": "angular-material"
 }
