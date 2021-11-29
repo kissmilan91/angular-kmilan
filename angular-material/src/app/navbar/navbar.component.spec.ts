@@ -1,35 +1,35 @@
 import { LayoutModule } from '@angular/cdk/layout';
-import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { waitForAsync, ComponentFixture, TestBed } from '@angular/core/testing';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
-import { MatCardModule } from '@angular/material/card';
-import { MatGridListModule } from '@angular/material/grid-list';
 import { MatIconModule } from '@angular/material/icon';
-import { MatMenuModule } from '@angular/material/menu';
+import { MatListModule } from '@angular/material/list';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
-import { Component4Component } from './component4.component';
+import { NavbarComponent } from './navbar.component';
 
-describe('Component4Component', () => {
-  let component: Component4Component;
-  let fixture: ComponentFixture<Component4Component>;
+describe('NavbarComponent', () => {
+  let component: NavbarComponent;
+  let fixture: ComponentFixture<NavbarComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [Component4Component],
+      declarations: [NavbarComponent],
       imports: [
         NoopAnimationsModule,
         LayoutModule,
         MatButtonModule,
-        MatCardModule,
-        MatGridListModule,
         MatIconModule,
-        MatMenuModule,
+        MatListModule,
+        MatSidenavModule,
+        MatToolbarModule,
       ]
     }).compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Component4Component);
+    fixture = TestBed.createComponent(NavbarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
