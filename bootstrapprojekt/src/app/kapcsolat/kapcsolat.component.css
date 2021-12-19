@@ -1,6 +1,11 @@
 .kapcsolat {
-    padding: 20px;
-    margin-top: 60px;
+    padding: 22px;
+    margin-top: 0px;
+    background: #eee;
+}
+
+.decoration {
+    padding: 10px;
 }
 
 .h1 {

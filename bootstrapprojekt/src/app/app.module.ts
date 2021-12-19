@@ -13,6 +13,10 @@ import { RegistrationComponent } from './admin/registration.component';
 import { UgyfelszolgalatComponent } from './ugyfelszolgalat/ugyfelszolgalat.component';
 import { KosarComponent } from './kosar/kosar.component';
 import { TermekekComponent } from './termekek/termekek.component';
+import { VasarlasComponent } from './kosar/vasarlas.component';
+import { ProfilComponent } from './profil/profil.component';
+import { WebfejlesztesComponent } from './webfejlesztes/webfejlesztes.component';
+import { ForditasComponent } from './forditas/forditas.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +30,11 @@ import { TermekekComponent } from './termekek/termekek.component';
     RegistrationComponent,
     UgyfelszolgalatComponent,
     KosarComponent,
-    TermekekComponent
+    TermekekComponent,
+    VasarlasComponent,
+    ProfilComponent,
+    WebfejlesztesComponent,
+    ForditasComponent
   ],
   imports: [
     BrowserModule,

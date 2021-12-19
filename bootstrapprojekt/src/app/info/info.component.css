@@ -1,28 +1,44 @@
-body {
-    background-color: #eee
+/* @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap'); */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #eee;
 }
 
-.nav-link {
-    border-radius: 0px !important;
-    transition: all 0.5s;
-    width: 100px;
-    display: flex;
-    flex-direction: column
+.szin{
+    font-family: 'Poppins', sans-serif;
+    background: #eee;
 }
 
-.nav-link small {
-    font-size: 12px
+h3{
+    font-family: 'Poppins', sans-serif;
 }
 
-.nav-link:hover {
-    background-color: #52525240 !important
+.social-box .box{
+    background: #FFF;
+    border-radius: 10px; 
+    padding: 40px 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
 }
 
-.nav-link .fa {
-    transition: all 1s;
-    font-size: 20px
+.social-box .box:hover{
+   box-shadow: 0 0 6px #1302ff;
 }
 
-.nav-link:hover .fa {
-    transform: rotate(360deg)
+.social-box .box .box-text{
+    margin:20px 0px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.social-box .box .box-btn a{
+    text-decoration: none;
+    color: #1302ff;
+    font-size: 16px;
+}
+
+.fa{
+     color:#1302ff;
 }
